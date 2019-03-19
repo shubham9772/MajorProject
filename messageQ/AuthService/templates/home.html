@@ -1,0 +1,40 @@
+{% load static %}
+<html>
+<head>
+	<title>MessageQ</title>
+	<link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body id="bg">
+    <header class="headdesk">
+	 <b>MessageQ</b>
+    </header>
+    <div id="mySidenav" class="sidenav">
+      <a href="#" id="account">Account</a>
+      <a href="#" id="settings">Settings</a>
+      <a href="#" id="about">About</a>
+      <a href="#" id="contact">Contact</a>
+    </div>
+    <div id= btn1>
+
+    	<button id="mailbtn" onclick="location.href = 'mail.html'">
+
+    	</button>
+    	<div class="overlay">Mail Marketing</div>
+    </div>
+
+    <div id="btn2">
+    	<button id="smsbtn"></button>
+    	<div class="overlay">SMS Marketing</div>
+    </div>
+
+    <div id="btn3">
+    	<button id="chatbot"></button>
+    	<div class="overlay">Chatbot</div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
